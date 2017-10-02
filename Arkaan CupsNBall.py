@@ -1,4 +1,4 @@
-user = input().upper()
+user = input('Input must be the letters "A", "B", or "C"\n').upper()
 ball = [1,0,0]
 for i in range(len(user)):
 	if user[i] == "A":
